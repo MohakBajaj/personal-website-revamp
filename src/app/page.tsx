@@ -4,7 +4,7 @@ import TypewriterText from "@/components/type-writer-text";
 
 export default function Home() {
   return (
-    <div className="flex h-dvh w-full flex-col items-center justify-center gap-10">
+    <div className="flex h-dvh w-full flex-col items-center justify-center gap-6 px-4 sm:gap-8 md:gap-10">
       <Title name="Mohak Bajaj" />
       <TypewriterText
         texts={[
