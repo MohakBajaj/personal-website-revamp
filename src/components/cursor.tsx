@@ -100,12 +100,12 @@ export default function Cursor() {
   return (
     <>
       <div
-        ref={dotRef}
-        className="cursor-dot pointer-events-none fixed z-50 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#dca54c] opacity-0 transition-[opacity,transform] duration-300 ease-in-out will-change-[transform,opacity]"
-      />
-      <div
         ref={outlineRef}
         className="cursor-dot-outline pointer-events-none fixed z-50 h-6 w-6 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#d4b88c] opacity-0 transition-[opacity,transform] duration-300 ease-in-out will-change-[transform,opacity]"
+      />
+      <div
+        ref={dotRef}
+        className="cursor-dot pointer-events-none fixed z-50 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#dca54c] opacity-0 transition-[opacity,transform] duration-300 ease-in-out will-change-[transform,opacity]"
       />
     </>
   );

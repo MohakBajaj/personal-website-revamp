@@ -45,7 +45,7 @@ export default function TypewriterText({
   return (
     <h2 className="animate__animated animate__backInDown flex items-center space-x-2 text-3xl font-semibold text-secondary">
       <span>{displayText}</span>
-      <div className="h-10 w-px bg-secondary"></div>
+      <div className="h-8 w-px bg-secondary"></div>
     </h2>
   );
 }

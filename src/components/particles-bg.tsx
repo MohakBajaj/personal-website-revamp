@@ -91,7 +91,7 @@ export default function ParticlesBg() {
                 x: 600,
                 y: 1200,
               },
-              distance: 200,
+              distance: 150,
             },
           },
           collisions: {

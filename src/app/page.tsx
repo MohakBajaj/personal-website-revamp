@@ -1,3 +1,4 @@
+import LinkButtons from "@/components/link-buttons";
 import Title from "@/components/title";
 import TypewriterText from "@/components/type-writer-text";
 
@@ -13,6 +14,7 @@ export default function Home() {
           "Machine Learning Enthusiast",
         ]}
       />
+      <LinkButtons />
     </div>
   );
 }
