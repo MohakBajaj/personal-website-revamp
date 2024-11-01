@@ -9,3 +9,12 @@ export const siteConfig = {
     twitter: "https://x.com/MohakBajaj5",
   },
 } as const;
+
+export type TypeWriterTexts = typeof typeWriterTexts;
+
+export const typeWriterTexts = [
+  "Software Engineer",
+  "Full Stack Developer",
+  "DevOps Enthusiast",
+  "Machine Learning Enthusiast",
+] as const;

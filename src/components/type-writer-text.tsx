@@ -1,9 +1,10 @@
 "use client";
+import { TypeWriterTexts } from "@/config/site";
 import { useEffect, useState } from "react";
 
 interface TypewriterTextProps {
   typingSpeed?: number;
-  texts: string[];
+  texts: TypeWriterTexts;
 }
 
 export default function TypewriterText({
