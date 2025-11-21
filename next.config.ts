@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return Promise.resolve([
       {
         source: "/resume",
-        destination: "https://resume.bmohak.codes",
+        destination: "https://resume.bmohak.xyz",
         permanent: true,
       },
     ]);
