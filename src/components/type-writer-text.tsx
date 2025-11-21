@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 interface TypewriterTextProps {
   typingSpeed?: number;
-  texts: TypeWriterTexts;
+  texts: TypeWriterTexts | string[];
 }
 
 export default function TypewriterText({
