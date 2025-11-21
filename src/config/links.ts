@@ -7,7 +7,7 @@ export const links = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/mohakbajaj/",
+    url: "https://www.linkedin.com/in/mohak-bajaj/",
   },
   {
     name: "X (Twitter)",
