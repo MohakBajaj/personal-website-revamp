@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@tanstack/react-router";
 import TypewriterText from "@/components/type-writer-text";
 
 export default function NotFound() {
@@ -11,7 +11,7 @@ export default function NotFound() {
         texts={["Page not found", "Are you lost?", "Let's get you back home"]}
       />
       <Link
-        href="/"
+        to="/"
         className="group relative rounded-lg border border-white/20 bg-white/5 px-3 py-1.5 text-sm text-white transition-all duration-300 hover:bg-white/10 hover:shadow-lg sm:px-4 sm:py-2"
       >
         <span className="relative z-10 group-hover:animate-pulse">

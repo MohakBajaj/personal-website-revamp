@@ -1,47 +1,114 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500&family=Oswald:wght@700&family=Lora:wght@400;600&family=Orbitron:wght@700;900&family=Rajdhani:wght@400;600&family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@400;600&family=Share+Tech+Mono&family=Noto+Serif+JP:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=VT323&family=Zen+Dots&family=Josefin+Sans:wght@400;700&family=Bungee&family=Nunito:wght@400;700&family=Merriweather:wght@400;700&family=Exo+2:wght@400;700&family=Sora:wght@400;700&family=Libre+Baskerville:wght@400;700&family=IM+Fell+English&family=Press+Start+2P&family=Outfit:wght@400;700&family=Literata:wght@400;600&family=Roboto+Flex:wght@400;700&family=Syne:wght@400;700;800&family=Unna:wght@400;700&family=Fredoka:wght@600;700&family=Comic+Neue:wght@400;700&family=Kosugi&family=M+PLUS+Rounded+1c:wght@400;700&family=Bebas+Neue&family=Sanchez&family=Pacifico&family=Quicksand:wght@400;700&family=DM+Mono:wght@400;500&family=Roboto:wght@400;700&family=Space+Mono&family=UnifrakturMaguntia&family=Major+Mono+Display&family=Poppins:wght@400;700&family=Inconsolata:wght@400;700&family=Courier+Prime&family=Sawarabi+Mincho&display=swap');
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@import 'tailwindcss' source('../');
+
+@theme inline {
+  --font-sans: 'Roboto', Arial, Helvetica, sans-serif;
+  --color-background: hsl(240 8% 9%);
+  --color-foreground: hsl(0 0% 100%);
+  --color-card: hsl(240 8% 9%);
+  --color-card-foreground: hsl(0 0% 100%);
+  --color-popover: hsl(240 8% 9%);
+  --color-popover-foreground: hsl(0 0% 100%);
+  --color-primary: hsl(39 65% 56%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-secondary: hsl(34 38% 69%);
+  --color-secondary-foreground: hsl(240 3% 24%);
+  --color-muted: hsl(276 5% 89%);
+  --color-muted-foreground: hsl(240 3% 24%);
+  --color-accent: hsl(35 45% 63%);
+  --color-accent-foreground: hsl(0 0% 100%);
+  --color-destructive: hsl(0 84% 60%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+  --color-border: hsl(0 0% 100%);
+  --color-input: hsl(0 0% 100%);
+  --color-ring: hsl(39 65% 56%);
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+@keyframes enter-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 
-@layer base {
-  :root {
-    --background: 240 8% 9%; /* #171618 */
-    --foreground: 0 0% 100%; /* #ffffff */
-    --card: 240 8% 9%;
-    --card-foreground: 0 0% 100%;
-    --popover: 240 8% 9%;
-    --popover-foreground: 0 0% 100%;
-    --primary: 39 65% 56%; /* #dca54c */
-    --primary-foreground: 0 0% 100%;
-    --secondary: 34 38% 69%; /* #d4b88c */
-    --secondary-foreground: 240 3% 24%; /* #3d3b40 */
-    --muted: 276 5% 89%; /* #dedae1 */
-    --muted-foreground: 240 3% 24%;
-    --accent: 35 45% 63%; /* #d3ad70 */
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 0 0% 100%; /* #ffffff */
-    --input: 0 0% 100%;
-    --ring: 39 65% 56%; /* #dca54c */
-    --radius: 0.5rem;
+.stagger-entrance > * {
+  animation: enter-fade-up 250ms cubic-bezier(0.23, 1, 0.32, 1) both;
+  will-change: transform, opacity;
+}
+
+.stagger-entrance > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-entrance > *:nth-child(2) { animation-delay: 75ms; }
+.stagger-entrance > *:nth-child(3) { animation-delay: 150ms; }
+.stagger-entrance > *:nth-child(4) { animation-delay: 225ms; }
+.stagger-entrance > *:nth-child(5) { animation-delay: 300ms; }
+.stagger-entrance > *:nth-child(6) { animation-delay: 375ms; }
+.stagger-entrance > *:nth-child(7) { animation-delay: 450ms; }
+.stagger-entrance > *:nth-child(8) { animation-delay: 525ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .stagger-entrance > * {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: var(--color-border);
   }
   body {
-    @apply bg-background text-foreground;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
   }
+}
+
+@utility no-animations {
+  &,
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+    transition-duration: 0s !important;
+  }
+}
+
+::view-transition-old(design-view) {
+  animation: 0.15s ease-in both fade-out;
+}
+
+::view-transition-new(design-view) {
+  animation: 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+::view-transition-group(design-view) {
+  animation-duration: 0.35s;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fade-out {
+  to { opacity: 0; }
+}
+
+@utility text-balance {
+  text-wrap: balance;
 }

@@ -1,4 +1,3 @@
-"use client";
 import { TypeWriterTexts } from "@/config/site";
 import { useEffect, useState } from "react";
 

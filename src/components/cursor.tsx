@@ -1,7 +1,14 @@
-"use client";
 import { useEffect, useRef, useCallback } from "react";
 
-export default function Cursor() {
+interface CursorProps {
+  dotColor?: string;
+  outlineColor?: string;
+}
+
+export default function Cursor({
+  dotColor = "#dca54c",
+  outlineColor = "#d4b88c",
+}: CursorProps) {
   const dotRef = useRef<HTMLDivElement>(null);
   const outlineRef = useRef<HTMLDivElement>(null);
 
@@ -45,7 +52,6 @@ export default function Cursor() {
       requestAnimationFrame(animateDotOutline);
     };
 
-    // Event Listeners
     const mouseOverHandler = () => toggleCursorSize(true);
     const mouseOutHandler = () => toggleCursorSize(false);
     const mouseDownHandler = () => toggleCursorSize(true);
@@ -62,7 +68,6 @@ export default function Cursor() {
     const mouseEnterHandler = () => toggleCursorVisibility(true);
     const mouseLeaveHandler = () => toggleCursorVisibility(false);
 
-    // Add event listeners
     const interactiveElements = document.querySelectorAll(
       "a, button, input, [role='button']"
     );
@@ -77,10 +82,8 @@ export default function Cursor() {
     document.addEventListener("mouseenter", mouseEnterHandler);
     document.addEventListener("mouseleave", mouseLeaveHandler);
 
-    // Start animation
     const animationFrame = requestAnimationFrame(animateDotOutline);
 
-    // Cleanup
     return () => {
       interactiveElements.forEach((el) => {
         el.removeEventListener("mouseover", mouseOverHandler);
@@ -101,11 +104,13 @@ export default function Cursor() {
     <>
       <div
         ref={outlineRef}
-        className="cursor-dot-outline pointer-events-none fixed z-50 h-6 w-6 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#d4b88c] opacity-0 transition-[opacity,transform] duration-300 ease-in-out will-change-[transform,opacity]"
+        style={{ backgroundColor: outlineColor }}
+        className="pointer-events-none fixed z-[100] h-6 w-6 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 transition-[opacity,transform] duration-300 ease-in-out will-change-[transform,opacity]"
       />
       <div
         ref={dotRef}
-        className="cursor-dot pointer-events-none fixed z-50 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#dca54c] opacity-0 transition-[opacity,transform] duration-300 ease-in-out will-change-[transform,opacity]"
+        style={{ backgroundColor: dotColor }}
+        className="pointer-events-none fixed z-[100] h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 transition-[opacity,transform] duration-300 ease-in-out will-change-[transform,opacity]"
       />
     </>
   );
