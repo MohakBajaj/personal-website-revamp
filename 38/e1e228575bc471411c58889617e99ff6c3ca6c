@@ -1,0 +1,405 @@
+src/components/designs/design-09.tsx
+  7578482672fd1a30 43
+  dc2006151c0e5787 32-33,47-48,53-54,65,78,84,91,95
+  bbac6ee7da342de2 1-31,34-42,44-46,49-52,55-64,66-77,79-83,85-90,92-94
+src/components/cursor.tsx
+  42b84b79fdea19f5 3-11,107-108,112-113
+src/components/designs/design-28.tsx
+  bbac6ee7da342de2 1-32,35-39,41-45,47-50,52-63,65-74,76-78,80-86,88-91
+  938fe7b42cbcd663 40
+  79b122a0e7472c74 33-34,46,51,64,75,79,87
+src/components/not-found.tsx
+  42b84b79fdea19f5 1-24
+src/components/designs/design-24.tsx
+  db9281e389e600b0 33-34,42-43,48-49,60,69,73,81
+  938fe7b42cbcd663 40
+  bbac6ee7da342de2 1-32,35-39,41,44-47,50-59,61-68,70-72,74-80,82-85
+tsconfig.json
+  42b84b79fdea19f5 3,16,20-22
+src/app/__root.tsx
+  42b84b79fdea19f5 1-7,10-95,98,101-106,110
+components.json
+  42b84b79fdea19f5 4
+src/components/designs/design-12.tsx
+  7578482672fd1a30 40
+  236fcb75a56a2770 33-34,42-43,48-49,60,69,73,81
+  bbac6ee7da342de2 1-32,35-39,41,44-47,50-59,61-68,70-72,74-80,82-85
+src/components/default-home.tsx
+  42b84b79fdea19f5 12
+  bbac6ee7da342de2 1-2,5,8,10-11,13-17
+src/components/designs/design-06.tsx
+  dc2006151c0e5787 47-48,62-63,68-69,79,88,90,98,103
+  373ed291de40acaa 54
+  bbac6ee7da342de2 1-46,49-53,55-61,64-67,70-78,80-87,89,91-97,99-102
+src/components/floating-controls.tsx
+  bbac6ee7da342de2 1-35
+src/components/designs/design-18.tsx
+  bbac6ee7da342de2 1-22,25,27-48,50-57,59-61,63-69,71-73
+  4da32132a7b54ef8 26
+  dfb30866e1514522 23-24,49,58,62,70,74
+src/components/designs/design-31.tsx
+  bbac6ee7da342de2 1-32,35-40,42-62,64-71,73-75,77-83,85-88
+  2eca2250c37b279a 41
+  79b122a0e7472c74 33-34,63,72,76,84
+src/components/design-picker.tsx
+  570f78207920a463 1-2,9,12-14,16,34,38-41,65,67-69,79-81,92
+  bbac6ee7da342de2 3-8,10-11,17-33,35-37,42-64,66,70,72-78,82,84-91
+src/components/designs/design-29.tsx
+  79b122a0e7472c74 33-34,64,73,77,85
+  2eca2250c37b279a 46
+  bbac6ee7da342de2 1-32,35-45,47-63,65-72,74-76,78-84,86-89
+src/components/designs/design-30.tsx
+  bbac6ee7da342de2 1-32,35-39,41-53,55-62,64-66,68-74,76-79
+  79b122a0e7472c74 33-34,54,63,67,75
+  2eca2250c37b279a 40
+.gitignore
+  42b84b79fdea19f5 16-18
+src/components/designs/design-33.tsx
+  bbac6ee7da342de2 1-32,35-43,45-64,66-73,75-77,79-85,87-90
+  79b122a0e7472c74 33-34,65,74,78,86
+  2eca2250c37b279a 44
+src/components/designs/design-04.tsx
+  373ed291de40acaa 38
+  4cd2a084c79d1b40 23-24,40-41,51,61,65,73
+  bbac6ee7da342de2 1-22,25-37,39,42-50,52-60,62-64,66-72,74-77
+src/components/designs/design-25.tsx
+  db9281e389e600b0 33-34,49,52,64,70,79,83,91
+  938fe7b42cbcd663 47
+  bbac6ee7da342de2 1-32,35-46,48,50-51,53-63,65-69,71-78,80-82,84-90,92-95
+src/app/resume.tsx
+  42b84b79fdea19f5 1-5,7-9
+src/components/designs/design-23.tsx
+  db9281e389e600b0 23-24,39-40,45-46,64,73,77,85
+  938fe7b42cbcd663 30
+  bbac6ee7da342de2 1-22,25-29,31-38,41-44,47-63,65-72,74-76,78-84,86-89
+src/components/link-buttons.tsx
+  42b84b79fdea19f5 34-35,39,42,47-48,51,55
+src/config/designs.ts
+  bbac6ee7da342de2 1-46
+src/components/designs/design-19.tsx
+  bbac6ee7da342de2 1-32,35-41,43-49,52-55,58-67,69-78,80-83,85-91,93-96
+  4da32132a7b54ef8 42
+  dfb30866e1514522 33-34,50-51,56-57,68,79,84,92,97
+src/components/designs/design-26.tsx
+  79b122a0e7472c74 33-34,73,82,84,92
+  bbac6ee7da342de2 1-32,35-44,46-72,74-81,83,85-91,93-98
+  938fe7b42cbcd663 45
+src/components/designs/design-11.tsx
+  7578482672fd1a30 32
+  bbac6ee7da342de2 1-22,25-31,33-39,42-45,48-64,66-73,75,77-83,85-89
+  236fcb75a56a2770 23-24,40-41,46-47,65,74,76,84
+src/components/designs/design-02.tsx
+  bbac6ee7da342de2 1-33,36-39,41-42,45-65,67-76,78-81,83-89,91-95
+  4cd2a084c79d1b40 34-35,43-44,66,77,82,90
+  373ed291de40acaa 40
+src/components/designs/design-08.tsx
+  7578482672fd1a30 42
+  bbac6ee7da342de2 1-32,35-41,43,46-49,52-61,63-70,72-74,76-82,84-86
+  dc2006151c0e5787 33-34,44-45,50-51,62,71,75,83,87
+vite.config.ts
+  42b84b79fdea19f5 1-25
+src/components/designs/design-27.tsx
+  79b122a0e7472c74 33-34,56,65,69,77
+  bbac6ee7da342de2 1-32,35-41,43-55,57-64,66-68,70-76,78-81
+  938fe7b42cbcd663 42
+src/components/designs/design-16.tsx
+  bbac6ee7da342de2 1-32,35,37-45,48-51,54-63,65-74,76-80,82-88,90-94
+  dfb30866e1514522 33-34,46-47,52-53,64,75,81,89,95
+  4da32132a7b54ef8 36
+src/components/designs/design-32.tsx
+  2eca2250c37b279a 46
+  bbac6ee7da342de2 1-32,35-45,47-69,71-78,80-82,84-90,92-95
+  79b122a0e7472c74 33-34,70,79,83,91
+src/components/designs/design-13.tsx
+  236fcb75a56a2770 33-34,44-45,50-51,62,71,75,83
+  7578482672fd1a30 42
+  bbac6ee7da342de2 1-32,35-41,43,46-49,52-61,63-70,72-74,76-82,84-88
+src/components/preloader.tsx
+  570f78207920a463 121-123
+  42b84b79fdea19f5 1,27-36,39-73,81,84,86,90,94-96,107-113,117,126
+  bbac6ee7da342de2 2-26,37-38,74-80,82-83,85,93,97-98,101-102,105-106,114-116,118-120,124-125
+src/router.tsx
+  42b84b79fdea19f5 1,3-13
+src/components/designs/design-17.tsx
+  dfb30866e1514522 33-34,50,59,63,71,76
+  4da32132a7b54ef8 37
+  bbac6ee7da342de2 1-32,35-36,38-49,51-58,60-62,64-70,72-75
+src/app/index.tsx
+  42b84b79fdea19f5 1,4-63,66-85,123-135,137-147,149-152
+  570f78207920a463 2-3,64-65,86-122,136,148
+package.json
+  42b84b79fdea19f5 5,7-9,13-14,18,22-24,26-27,30,32-33,36-39
+src/components/designs/design-07.tsx
+  373ed291de40acaa 23
+  bbac6ee7da342de2 1-22,24-38,41-63,65-72,74-76,78-84,86-90
+  dc2006151c0e5787 39-40,64,73,77,85,91
+src/components/designs/design-35.tsx
+  bbac6ee7da342de2 1-32,35-51,53-73,75-82,84-86,88-94,96-99
+  2eca2250c37b279a 52
+  79b122a0e7472c74 33-34,74,83,87,95
+src/components/designs/design-01.tsx
+  373ed291de40acaa 57
+  4cd2a084c79d1b40 53-54,74,83,86,94
+  bbac6ee7da342de2 1-52,55-56,58-73,75-82,84-85,87-93,95-98
+src/components/tooltip.tsx
+  bbac6ee7da342de2 2,10-12,14-19,21-28
+src/components/design-thumbnail.tsx
+  bbac6ee7da342de2 75-76,80-86,110,122-123
+  c70bbda1cf4cf1e2 1-74,79,87-109,111-112,114-121,124
+src/components/designs/design-22.tsx
+  db9281e389e600b0 33-34,67,76,80,88
+  938fe7b42cbcd663 41
+  bbac6ee7da342de2 1-32,35-40,42-66,68-75,77-79,81-87,89-92
+src/components/designs/design-14.tsx
+  bbac6ee7da342de2 1-22,25-33,35-36,39-77,79-86,88-90,92-98,100-106
+  236fcb75a56a2770 23-24,37-38,78,87,91,99
+  7578482672fd1a30 34
+src/components/designs/design-03.tsx
+  bbac6ee7da342de2 1-23,26-41,44-65,67-80,82-84,86-92,94-98
+  373ed291de40acaa 25
+  4cd2a084c79d1b40 24,42-43,66,81,85,93
+src/components/designs/design-05.tsx
+  bbac6ee7da342de2 1-32,35-44,46-52,55-58,61-72,74-85,87-91,93-99,101-106
+  4cd2a084c79d1b40 33-34,53-54,59-60,73,86,92,100
+  373ed291de40acaa 45
+src/app/$id.tsx
+  42b84b79fdea19f5 1-97
+src/components/designs/design-15.tsx
+  4da32132a7b54ef8 41
+  bbac6ee7da342de2 1-32,35-40,42-58,60-67,69-71,73-79,81-85
+  236fcb75a56a2770 33-34,59,68,72,80
+src/components/designs/design-20.tsx
+  bbac6ee7da342de2 1-39,41-59,61-68,70-72,74-80,82-84
+  dfb30866e1514522 60,69,73,81,85
+  4da32132a7b54ef8 40
+src/components/designs/design-10.tsx
+  bbac6ee7da342de2 1-22,25-43,45,48-56,58-65,67-69,71-77,79-81
+  7578482672fd1a30 44
+  dc2006151c0e5787 23-24,46-47,57,66,70,78,82
+src/components/designs/design-21.tsx
+  db9281e389e600b0 33-34,47,49,57,59,73,82,86,94
+  bbac6ee7da342de2 1-32,35-44,46,48,50-56,58,60-72,74-81,83-85,87-93,95-98
+  4da32132a7b54ef8 45
+src/components/designs/design-34.tsx
+  79b122a0e7472c74 55,64,68,76
+  bbac6ee7da342de2 1-32,35-40,42-54,56-63,65-67,69-75,77-80
+  2eca2250c37b279a 41
+src/app/globals.css
+  42b84b79fdea19f5 1-35,38,41-48,52-70,76,79-83,112-114
+  570f78207920a463 84-91,94-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "38e1e228575bc471411c58889617e99ff6c3ca6c",
+  "prompts": {
+    "236fcb75a56a2770": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_210d6b45cffeo2ASQsOVy09hJU",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 44,
+      "total_deletions": 75,
+      "accepted_lines": 44,
+      "overriden_lines": 0
+    },
+    "2eca2250c37b279a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2105dee41ffeOP2ZF4IIIscRvl",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 7,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "373ed291de40acaa": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2105e1f28ffeliMmmZIu1ouOSE",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 7,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "42b84b79fdea19f5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_210e9e9deffeGGmXN6FtkHbto7",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 35398,
+      "total_deletions": 726,
+      "accepted_lines": 28029,
+      "overriden_lines": 700
+    },
+    "4cd2a084c79d1b40": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_210d6da27ffeAvxVf3g4PQkXNL",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 40,
+      "total_deletions": 73,
+      "accepted_lines": 39,
+      "overriden_lines": 0
+    },
+    "4da32132a7b54ef8": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2105e0505ffezevrJ4Jd75c5uM",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 7,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "570f78207920a463": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_21059842dffefPCoeL4rYqSzX9",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 170,
+      "total_deletions": 118,
+      "accepted_lines": 94,
+      "overriden_lines": 4
+    },
+    "7578482672fd1a30": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2105e11c7ffexZ7sJEj8P0Vm39",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 7,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "79b122a0e7472c74": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_210d43bc6ffeOA3ED2Uqp3SMkj",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 70,
+      "total_deletions": 122,
+      "accepted_lines": 60,
+      "overriden_lines": 0
+    },
+    "938fe7b42cbcd663": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2105df98cffeDUtKUaQnTHG2Zr",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 7,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    },
+    "bbac6ee7da342de2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_211317a4cffe2Uai8HvF4lm8OF",
+        "model": "opencode-go/kimi-k2.6"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 5517,
+      "total_deletions": 291,
+      "accepted_lines": 3096,
+      "overriden_lines": 3
+    },
+    "c70bbda1cf4cf1e2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2105c7fc8ffeyWR0E5kV4NFb4F",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 119,
+      "total_deletions": 499,
+      "accepted_lines": 109,
+      "overriden_lines": 2
+    },
+    "db9281e389e600b0": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_210d68c69ffeVW5Pzg2myaHNke",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 45,
+      "total_deletions": 71,
+      "accepted_lines": 45,
+      "overriden_lines": 0
+    },
+    "dc2006151c0e5787": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_210d6c90cffezR3bFHA1YeP5v1",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 49,
+      "total_deletions": 80,
+      "accepted_lines": 49,
+      "overriden_lines": 0
+    },
+    "dfb30866e1514522": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_210d69f90ffeFsswhyksmHy6EO",
+        "model": "opencode-go/glm-5.1"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 41,
+      "total_deletions": 70,
+      "accepted_lines": 41,
+      "overriden_lines": 0
+    },
+    "e177d31c5f7f1932": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c3273-030c-7cb3-965c-888dceaddb42",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Mohak Bajaj",
+      "messages": [],
+      "total_additions": 69,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
